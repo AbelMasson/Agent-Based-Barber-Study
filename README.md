@@ -1,6 +1,6 @@
 ### TD Simulation Individu-Centrée de la capture d'insectes dans des Pièges Barber
 
-Sur cette page vous trouverez un TD portant sur la capture des insectes dans un piège Barber ('TD Simulation Barber.ipynb'). 
+Sur cette page vous trouverez un TD portant sur la capture des insectes dans un piège Barber (*'TD Simulation Barber.ipynb'*). 
 
 Dans un premier temps, le TD propose une façon de simuler la capture d'insectes virtuels (représentant des cararbes par exemple) dans des pots Barber, ainsi qu'une visualisation de ce processus (*'Visualisation Exemple.mp4'*). 
 
