@@ -1,9 +1,11 @@
 ### TD Simulation Individu-Centrée de la capture d'insectes dans des Pièges Barber
 
-Su ce dépôt vous trouverez un TD portant sur la capture des insectes dans un piège Barber (*'TD Simulation Barber.ipynb'*) et son corrigé (*'CORRIGE TD Simulation Barber.ipynb'*). 
+Ce dépôt contient un TD portant sur la capture d'insectes (*'TD Simulation Barber.ipynb'*) et son corrigé (*'CORRIGE TD Simulation Barber.ipynb'*). 
 
-Dans un premier temps, le TD propose une façon de simuler la capture d'insectes virtuels (représentant des cararbes par exemple) dans des pots Barber, ainsi qu'une visualisation de ce processus (*'Visualisation Exemple.mp4'*). 
+**Objectif**
 
-Dans un second temps, on simule des bases de données virtuelles (*'data_simulated.xlsx'* et *'data_simulated_dispersion.xlsx'*) pour calibrer un modèle bayésien hierarchique. Ce modèle a pour objectif de prédire le nombre initial d'individus sur la parcelle en fonction du nombre d'individus piégés dans les pots en fin de simulation et de leur capacité de dispersion. La définition du modèle est donnée dans le TD. 
+L'objectif de ce TD est de **construire un modèle permettant d'estimer la densité d'insectes dans un champ, à partir de mesures de leur activité-densité et de leur activité.** 
 
-Afin d'obtenir les distributions a posteriori des paramètres du modèle il est nécessaire de le calibrer, mais les résultats de la calibration (Echantillons des chaines de Markov) sont également donnés dans ce dépôt (*'Données\Echantillon_MCMC_Model_Dispersion_et_Densité.nc'*) 
+**Description**
+
+Le TD est organisé en trois temps, chacun associé à une ou plusieurs questions. Nous chercherons d'abord comment simuler (et visualiser) la capture d'insectes dans des pièges Barber (*'Visualisation Exemple.mp4'*). Ensuite, nous mobiliserons ces simulations pour construire des bases de données virtuelles donnant l'activité-densité (*'data_simulated.xlsx'*) et l'activité (*'data_simulated_dispersion.xlsx'*) de populations d'insectes virtuelles sur différents types de parcelles. Enfin, nous définirons un modèle bayésien hierarchique encapsulant une représentation mécaniste des processus de diffusion et de capture et permettant de relier les mesures virtuelles d'activité-densité et d'activité à une estimation de la densité d'insectes. Ce modèle sera calibré dans le TD, mais les résultats de la calibration (*Echantillons*) sont également disponibles dans ce dépôt (*'Données\Echantillon_MCMC_Model_Dispersion_et_Densité.nc'*)
